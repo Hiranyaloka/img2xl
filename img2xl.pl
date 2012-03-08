@@ -12,7 +12,7 @@ if (@ARGV == 0)
   {
   print "\nPrepares the graphics files from the folders passed on the command line.\n".
     "Two thumbnails are created from each original and written to current directory.\n".
-    "Filenames are dirified and appended with a 3-digit gallery identifier.\n".
+    "Filenames are dirified and appended with a 2-digit gallery identifier.\n".
     "Only .jpg and .gif files are processed. Multiple folders may be supplied.\n".
     "Creates a galleries.xls spreadsheet in the current working directory, and embeds\n".
     "the thumbnails in column A, with filename linking to the larger image in Column B.\n".
