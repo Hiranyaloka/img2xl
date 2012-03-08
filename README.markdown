@@ -3,12 +3,12 @@
 IMAGES2XLS is a perl script which creates a new spreadsheet from a directory of images. The first column of the spreadsheet is a list of thumbnails. The second column holds the dirified image names, linked to a larger "thumbnail" of the same image. The spreadsheet, and smaller and larger thumbs are saved to the current working directory. If multiple directories are passed to the command line, then each (dirified) filename is appended with a a two digit number identifying the directory. Each directory produces a separate worksheet.
 
 ## DEPENDENCIES ##
-- File::Find (core)
-- File::Spec (core)
 - String::Dirify
 - Image::Magick
 - Spreadsheet::WriteExcel
-
+- File::Find (core)
+- File::Spec (core)
+- Cwd (core)
 ## CHANGELOG ##
 - version 0.1  Initial release.
 
