@@ -9,6 +9,7 @@ IMAGES2XLS is a perl script which creates a new spreadsheet from a directory of 
 - File::Find (core)
 - File::Spec (core)
 - Cwd (core)
+
 ## CHANGELOG ##
 - version 0.1  Initial release.
 
